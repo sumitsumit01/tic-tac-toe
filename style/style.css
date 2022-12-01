@@ -1,0 +1,29 @@
+*{
+    font-family: 'Gill Sans','Gill Sans MT',Calibri,'Trebudbc MS',sans-serif;
+
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    font-size: 65px;
+    cursor: pointer;
+}
+td:nth-of-type(2){
+    border-left:  1px dashed #333;
+    border-right:   1px dashed #333;
+}
+tr:nth-of-type(2) td{
+    border-top:   1px dashed #333;
+    border-bottom:  1px dashed #333;
+    
+}
